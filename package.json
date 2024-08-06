@@ -1,6 +1,6 @@
 {
   "name": "@ortoo/json2bson",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Convert JSON to BSON",
   "main": "index.js",
   "scripts": {
