@@ -31,7 +31,8 @@ const RAW_RUNTIME_STATE =
           ["eslint", "npm:7.32.0"],\
           ["lodash.isarray", "npm:4.0.0"],\
           ["lodash.isobject", "npm:3.0.2"],\
-          ["lodash.isstring", "npm:4.0.1"]\
+          ["lodash.isstring", "npm:4.0.1"],\
+          ["prettier", "npm:3.3.3"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -116,7 +117,8 @@ const RAW_RUNTIME_STATE =
           ["eslint", "npm:7.32.0"],\
           ["lodash.isarray", "npm:4.0.0"],\
           ["lodash.isobject", "npm:3.0.2"],\
-          ["lodash.isstring", "npm:4.0.1"]\
+          ["lodash.isstring", "npm:4.0.1"],\
+          ["prettier", "npm:3.3.3"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -1012,6 +1014,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../.yarn/berry/cache/prelude-ls-npm-1.2.1-3e4d272a55-10c0.zip/node_modules/prelude-ls/",\
         "packageDependencies": [\
           ["prelude-ls", "npm:1.2.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["prettier", [\
+      ["npm:3.3.3", {\
+        "packageLocation": "./.yarn/unplugged/prettier-npm-3.3.3-e811f023f3/node_modules/prettier/",\
+        "packageDependencies": [\
+          ["prettier", "npm:3.3.3"]\
         ],\
         "linkType": "HARD"\
       }]\

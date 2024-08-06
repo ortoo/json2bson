@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/ortoo/json2bson#readme",
   "devDependencies": {
-    "eslint": "^7.32.0"
+    "eslint": "^7.32.0",
+    "prettier": "^3.3.3"
   },
   "dependencies": {
     "bson": "^6.8.0",
