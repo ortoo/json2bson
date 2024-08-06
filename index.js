@@ -5,7 +5,8 @@ const isObject = require('lodash.isobject');
 const BSON = require('bson');
 const ObjectId = BSON.ObjectId;
 
-const TIMESTAMP_RE = /^(-?(?:[1-9][0-9]*)?[0-9]{4})-(1[0-2]|0[1-9])-(3[01]|0[1-9]|[12][0-9])T(2[0-3]|[01][0-9]):([0-5][0-9]):([0-5][0-9])(\.[0-9]+)?(Z)?$/;
+const TIMESTAMP_RE =
+  /^(-?(?:[1-9][0-9]*)?[0-9]{4})-(1[0-2]|0[1-9])-(3[01]|0[1-9]|[12][0-9])T(2[0-3]|[01][0-9]):([0-5][0-9]):([0-5][0-9])(\.[0-9]+)?(Z)?$/;
 const OBJECTID_RE = /^[0-9a-fA-F]{24}$/;
 
 module.exports = jsonToBson;
